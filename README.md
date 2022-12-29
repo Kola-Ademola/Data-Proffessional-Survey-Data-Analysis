@@ -9,6 +9,6 @@ Here's a link to his Youtube : https://www.youtube.com/@AlexTheAnalyst
 
 ### Analytics Process
 
-I downloaded the dataset from the link above.
-I used Jupyter notebook & python to clean the dataset and also do some feature engineering.
-After I finished cleaning I exported the data from my notebook to back to the excel format which I will be using for my final analysis/viz..
+* I downloaded the dataset from the link above.
+* I used Jupyter notebook & python to clean the dataset and also do some feature engineering.
+* After I finished cleaning I exported the data from my notebook to back to the excel format which I will be using for my final analysis/viz..
