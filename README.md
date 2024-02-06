@@ -1,9 +1,16 @@
 # Data-Proffessional-Survey-Data-Analysis
-In this project I used the survey data from Alex Freberg .. I cleaned the data using python pandas &amp; numpy before exporting the data back as an Excel file to be used for final analysis and visualization on PowerBI
+## by Kola Ademola
+___
+![](images/survey.jpg)
+___
+## INTRODUCTION
+___
+Inspiration for this project is gotten from Alex Freberg big thanks to him.!!!! For this project I used the survey data Alex Freberg collected from a survey of Data professionals.. 
+
+## PROBLEM STATEMENT
+
+I cleaned the data using python pandas &amp; numpy before exporting the data back as an Excel file to be used for final analysis and visualization on PowerBI
 Link to dataset (https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
-
-Inspiration for this project is gotten from Alex Freberg big thanks to him.!!!!
-
 Here's a link to his Youtube : https://www.youtube.com/@AlexTheAnalyst
 
 
