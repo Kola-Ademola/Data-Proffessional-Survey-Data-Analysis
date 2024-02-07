@@ -5,12 +5,12 @@ ___
 ___
 ## INTRODUCTION
 ___
-Inspiration for this project is gotten from Alex Freberg big thanks to him.!!!! For this project I used the survey data Alex Freberg collected from a survey of Data professionals.. 
+Inspiration for this project is gotten from Alex Freberg, big thanks to him.!!!! For this project I used the survey data Alex Freberg collected from a survey of Data professionals.. 
 
 ## PROBLEM STATEMENT
-The purpose of this analysis is just to get an insight of what data roles/jobs are like. I am interested in finding out the following from this analysis:
+The purpose of this analysis is to get an insight of what data roles/jobs are like. I am interested in finding out the following from this analysis:
 * Which Data role earns the most salary?
-* What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.
+* What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.?
 * Which country can I get the most salary as a data Professional?
 * Which Industry do Data professionals work in the most & what programming language is most common?
 * What do these data professionals look out for when they're searching for their next role?
@@ -27,7 +27,7 @@ ___
 ___
 For this project I used the following tools;
 * **Python -->** For Data Cleaning
-* **Power BI -->** For Data transformation, Data Modelling & Visualization
+* **Power BI -->** For Data transformation, Modelling & Visualization
   
 ### DATA CLEANING
 The survey raw data was very dirty with many data quality issues. I first imported the dataset into a Jupyter notebook where I used Python to clean the data.  
@@ -48,10 +48,10 @@ ___
 ### DATA TRANSFORMATION & MODELLING
 ___
 The dataset was still in a single table, so I had to do some extra transformation in Power BI to create dimension tables out of the data. The dimension tables created were;
-* **ROLES** table: This hold info on all the job roles.
-* **INDUSTRIES** table: This holds info on all the job industries.
-* **COUNTRIES** table: This holds info on all the countries of the participants.
-* **PROGRAMMING LANGUAGES** table: This holds info on all the languages used by participants for their jobs.
+* **ROLES** table: This hold information on all the job roles.
+* **INDUSTRIES** table: This holds information on all the job industries.
+* **COUNTRIES** table: This holds information on all the countries of the participants.
+* **PROGRAMMING LANGUAGES** table: This holds information on all the languages used by participants for their jobs.
 
 I then used these to create a simple **STAR SCHEMA** with the main survey data table as the *Fact* table.  
 ![](images/model.png)
@@ -62,7 +62,13 @@ This dashboard has a single report page
 ![](images/dashboard.png)
 ### [LINK TO DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiODVmMGFiM2EtYjBhNS00NzBhLThjODMtMDYyYjlkZDVhMGQwIiwidCI6ImQyMzQyMjIxLWJiM2ItNGQ1ZS04NWRmLTkyYzFlOTg0YTNlZCJ9)
 ___
-I am interested in finding out the following from this analysis:
+I am interested in finding out the following from this analysis:  
+* Which Data role earns the most salary?
+* What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.?
+* Which country can I get the most salary as a data Professional?
+* Which Industry do Data professionals work in the most & what programming language is most common?
+* What do these data professionals look out for when they're searching for their next role?
+* How difficult is it to break into data?  
 But first, a quick insight about the participants;  
 ![](images/summary.png)  
 > There's a **565** participants in total, with **$55k** average salary & an average age of 30.
@@ -71,7 +77,7 @@ ___
 ![](images/avg_salary.png)  
 > Based on this survey, it's clear that **Data Scientists** earn the most, with an average salary of **$97k**..  
 * Gender Breakdown  
-![](images/avg_salary.png)
+![](images/gender.png)
 > ..and **Women** earn more than Men with **$58k** to **$55k**.
 ___
 * What do these data professionals look out for when they're searching for their next role?
@@ -82,12 +88,12 @@ ___
 ![](images/difficulty.png)  
 > According to this survey the participants are neutral on how difficult it is to break into data, as most of them said it's **Neither easy nor difficult**
 ___
-* What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.
+* What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.?
 ### SATISFACTION LEVELS
 |Management|Work/Life balance|Salary|
 |----------|-----------------|------|
 |![](images/mgt_sat.png)|![](images/work_sat.png)|![](images/salary_sat.png)|
-> We can still see that most are generally not satisfied with their salary as *Salary satisfaction is the lowest at 43%*. Although the *Management: 54% & Work/Life Balance: 58%* are not so great as well.
+> We can still see that most participants are generally not satisfied with their salary as *Salary satisfaction is the lowest at 43%*. Although the *Management: 54% & Work/Life Balance: 58%* are not so great as well.
 ___
 * Which country can I get the most salary as a data Professional?  
  
@@ -104,8 +110,8 @@ ___
 ___
 ## CONCLUSION
 After this analysis, based on this survey data only:
-* Most data professionals are really not happy with their salary and coupled with the fact that *better salary* is what most were looking for in their next job. Also the HR department should also do well in terms of management while the work/life balance is upto both the participant and management to attain a great balance.
+* Most data professionals are really not happy with their salary coupled with the fact that *better salary* is what most of them were looking for in their next job. Also, the HR department should do well in terms of management while the work/life balance is upto both the participant and management to attain a great balance.
 
-* Most professionals prefer to use Python and me personally I love Python as well. 😂
+* Most professionals prefer to use Python and personally I love Python as well. 😂
 * The United States seems to do better in terms of Salary as compared to other countries.
 * In as much as I love **Data Analytics & Data Engineering** they don't pay as much as **Data Science**.
