@@ -63,28 +63,47 @@ This dashboard has a single report page
 ### [LINK TO DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiODVmMGFiM2EtYjBhNS00NzBhLThjODMtMDYyYjlkZDVhMGQwIiwidCI6ImQyMzQyMjIxLWJiM2ItNGQ1ZS04NWRmLTkyYzFlOTg0YTNlZCJ9)
 ___
 I am interested in finding out the following from this analysis:
-* Which Data role earns the most salary?
+But first, a quick insight about the participants;  
+![](images/summary.png)  
+> There's a **565** participants in total, with **$55k** average salary & an average age of 30.
+___
+* Which Data role earns the most salary?  
+![](images/avg_salary.png)  
+> Based on this survey, it's clear that **Data Scientists** earn the most, with an average salary of **$97k**..  
+* Gender Breakdown  
 ![](images/avg_salary.png)
+> ..and **Women** earn more than Men with **$58k** to **$55k**.
+___
+* What do these data professionals look out for when they're searching for their next role?
+![](images/job_factor.png)
+> Most of the participants were looking for **Better Salary**
+___
+* and How difficult is it to break into any data role?
+![](images/difficulty.png)
+> According to this survey the participants are neutral on how difficult it is to break into data, as most of them said it's **Neither easy nor difficult**
 ___
 * What are satisfaction levels like in terms of, Management, Work/Life balance and Salary.
 ### SATISFACTION LEVELS
 |Management|Work/Life balance|Salary|
 |----------|-----------------|------|
 |![](images/mgt_sat.png)|![](images/work_sat.png)|![](images/salary_sat.png)|
+> We can still see that most are generally not satisfied with their salary as *Salary satisfaction is the lowest at 43%*. Although the *Management: 54% & Work/Life Balance: 58%* are not so great as well.
 ___
-* Which country can I get the most salary as a data Professional?
+___
+* Which country can I get the most salary as a data Professional?  
 |Ireland|Denmark|USA|
-|----------|-----------------|------|
-|![](images/part_by_country1.png)|![](images/part_by_country2.png)|![](images/part_by_country3.png)|
+|--------------------------------|--------------------------------|--------------------------------|
+|![](images/part_by_country1.png)|![](images/part_by_country2.png)|![](images/part_by_country3.png)|  
+> The salary in **Ireland: $95k** & **Denmark: $84k** is very high when compared to **USA: $78k**, but we should also notice that *Ireland & Denmark* have less than 3 participants in this survey and this might not be a good representation of that country while **USA** has the most participants with an average salary of **$78k** so that would be a better choice to pick as the country that pay the most for data roles.
 ___
 * Which Industry do Data professionals work in the most & what programming language is most common?
-![](images/.png)
+![](images/roles_by_in.png)
+> Most participants work in different industries which were just grouped as **Others**, but we can also see that **Python** is the most used Programming language.
 ___
-* What do these data professionals look out for when they're searching for their next role?
-![](images/.png)
-___
-* How difficult is it to break into data?
-![](images/.png)
-___
+## CONCLUSION
+After this analysis, based on this survey data only:
+* Most data professionals are really not happy with their salary and coupled with the fact that *better salary* is what most were looking for in their next job. Also the HR department should also do well in terms of management while the work/life balance is upto both the participant and management to attain a great balance.
 
-___
+* Most professionals prefer to use Python and me personally I love Python as well. 😂
+* The United States seems to do better in terms of Salary as compared to other countries.
+* In as much as I love **Data Analytics & Data Engineering** they don't pay as much as **Data Science**.
